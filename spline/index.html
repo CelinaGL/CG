@@ -3,32 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Canva</title>
+    <title>Spline</title>
 
     <style> 
         body {
-            background-color:white;
-            color: black;
+            background-color:rgb(32, 32, 35);
+            color: white;
         }
         h1 {
-            color: black;
+            color: aquamarine;
         }
         canvas {
             border: 1px solid black;
+            background-color: rgb(56, 55, 60);
         }
+
     </style>
 
 </head>
 <body>
-    <h1>Canva</h1>
-    <button type="button" onclick="limpar()">Limpar</button>
-    
+    <h1>Spline</h1>
+    <div>
+        <button id="limpar" onclick="limpar()">Limpar</button>
+        <button id="mostrar" onclick="mostrar()">Mostrar</button>
+    </div>
+
     <canvas 
     id="canva"
-    width="1024" 
-    height="500">
+    width="1290" 
+    height="536 ">
     </canvas>
-    
+
     <script src="script.js"></script>
 
 </body>
